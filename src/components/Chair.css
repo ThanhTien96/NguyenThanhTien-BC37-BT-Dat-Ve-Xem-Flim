@@ -1,0 +1,32 @@
+
+
+.chair{
+    margin:0 9px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background-color: rgba(240, 236, 235, 0.801);
+    border: 2px solid coral;
+    border-radius: 4px;
+    box-shadow: inset 0 0 4px 4px rgba(215, 211, 210, 0.801);
+    transition: all .5s;
+}
+
+.chair:hover{
+    background-color: green;
+    color: #fff;
+    box-shadow: none;
+}
+
+.chair.booked{
+    background-color: rgba(252, 165, 0, 1);
+    box-shadow: none;
+    border-color: rgba(252, 165, 0, 1);
+    color: #fff;
+}
+
+.chair.booking{
+    background-color: rgba(109, 238, 109, 1);
+    box-shadow: none;
+}

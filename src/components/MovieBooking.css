@@ -1,0 +1,14 @@
+.screen{
+    width: 100%;
+    height: 40px;
+    border: 40px solid transparent;
+    border-bottom: 40px solid rgba(253, 159, 94, 1);
+    position: relative;
+    margin-bottom: 50px;   
+    box-shadow: 0 29px 22px -20px rgb(255 255 255); 
+}
+
+.screen h5{
+    font-size: 30px;
+
+}
